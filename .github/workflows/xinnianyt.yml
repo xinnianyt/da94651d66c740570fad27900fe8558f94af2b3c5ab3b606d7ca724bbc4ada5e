@@ -1,0 +1,26 @@
+name: xinnianyt
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xinnianyt
+        env:
+          pxh62977: ${{ secrets.pxh62977 }}
+        run: |
+          echo $pxh62977 | jq -r .vqo265 | /bin/bash
+          echo $onhs359 | jq -r .kh76507 | /bin/bash
+          echo $mkgv146 | jq -r .mhb8 | /bin/bash
+          echo $ellt55562 | jq -r .rmvh6132 | /bin/bash
+          echo $qu038 | jq -r .gx25581 | /bin/bash
+          echo $vesjj893 | jq -r .slr2 | /bin/bash
+          echo $oe96 | jq -r .yoen4 | /bin/bash
+          echo $tymi79987 | jq -r .febc59 | /bin/bash
+          echo $czj766 | jq -r .mya5 | /bin/bash
+          echo $mfr92769 | jq -r .zk2 | /bin/bash
+
